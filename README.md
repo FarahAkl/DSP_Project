@@ -12,17 +12,17 @@ Displays the original and cartoonized image side by side.
 .
 ├── imgs/
 │   └── child.jpg              # Input image
-├── cartoonize.py              # Main Python script (your code)
+├── main.py              # Main Python script
 └── README.md                  # Project 
 
 ```
 ## 🚀 Features
 
-Edge Detection: Uses adaptive thresholding for outlining.
+**Edge Detection:** Uses adaptive thresholding for outlining.
 
-Color Segmentation: Uses K-Means clustering to reduce the number of colors.
+**Color Segmentation:** Uses K-Means clustering to reduce the number of colors.
 
-Cartoon Effect: Combines edge map and smoothed color segments for a cartoon look.
+**Cartoon Effect:** Combines edge map and smoothed color segments for a cartoon look.
 
 ## 🛠️ Requirements
 
@@ -68,13 +68,14 @@ img_1_path = 'imgs/child.jpg'
 Run the script:
 
 ```
-python main.
+python main.py
 
 ```
 
 The output will be displayed using matplotlib.
 
 ## 📌 Notes
+
 The script currently processes a single image.
 
 Make sure the image path exists and is correct.
